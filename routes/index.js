@@ -1,13 +1,8 @@
 var express = require('express');
 var router = express.Router();
-var request = require('request');
-var multer = require('multer');
-var fs = require('fs');
-var upload = multer({ dest: 'uploads/' });
 var exportedConfig = require('../db');
 const { config, savedData } = exportedConfig;
 const saving = require('../saving/configuration.js');
-const path = require('path');
 const { Configuration } = saving;
 
 router.get('/mockServer', function (req, res, next) {

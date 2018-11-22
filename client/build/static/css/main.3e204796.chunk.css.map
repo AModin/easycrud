@@ -1,0 +1,1 @@
+{"version":3,"sources":["D:/Projects/mock-server-view/mock-server-panel/src/D:/Projects/mock-server-view/mock-server-panel/src/App.css"],"names":[],"mappings":"AAEA,UACE,cAAe,AACf,cAAe,CAChB","file":"main.3e204796.chunk.css","sourcesContent":["@import '~antd/dist/antd.css';\n\n.app-link {\n  color: #1890ff;\n  cursor: pointer\n}\n"]}

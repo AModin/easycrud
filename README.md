@@ -2,7 +2,7 @@
 Have an awesome idea for your next perfect interface and don't want to waste your time to backend stuff? 
 Focus on really important things, this script will take this part and create CRUD API for you in a few seconds.
 # How?
-First of all you need to be sure, that you have nodejs installed. I used version 11.1.0 and npm version 6.4.1. If you have older node
+First of all you need to be sure, that you have nodejs installed. I used version 11.1.0 and npm version 6.4.1. If you have an older node
 version installed and you want to keep it, use this tool [nvm](https://github.com/creationix/nvm) it will allow you to use few node versions and switch between them.
 
 Clone this repo:

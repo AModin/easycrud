@@ -27,35 +27,35 @@ After the server is running check out the dashboard at localhost:8000
 ## POST/PUT
 To save the data you need to attach the body to request.
 
-[![POST/PUT method add entry](https://img.youtube.com/vi/8eTPd63SDOo/0.jpg)](https://www.youtube.com/watch?v=8eTPd63SDOo)
+[![POST/PUT method add entry](https://user-images.githubusercontent.com/15379788/48933035-bc72fb00-ef0f-11e8-9140-a13d84815d53.png)](https://www.youtube.com/watch?v=8eTPd63SDOo)
 
 You can change item in the collection by sending item with existing id in case "Change by id" option is selected,
 otherwise, the new item will replace the old one.
 
-[![POST/PUT method change entry](https://img.youtube.com/vi/M3DNh1jdH_Y/0.jpg)](https://www.youtube.com/watch?v=M3DNh1jdH_Y)
+[![POST/PUT method change entry](https://user-images.githubusercontent.com/15379788/48933034-bbda6480-ef0f-11e8-8688-cb94ffcb90fe.png)](https://www.youtube.com/watch?v=M3DNh1jdH_Y)
 
 ## GET
 
 The request without any parameters will return all enteries. 
 
-[![Get without parameters](https://img.youtube.com/vi/4rVxLHxpzQY/0.jpg)](https://www.youtube.com/watch?v=4rVxLHxpzQY)
+[![Get without parameters](https://user-images.githubusercontent.com/15379788/48933032-bbda6480-ef0f-11e8-8edc-fb3d9f3e1baf.png)](https://www.youtube.com/watch?v=4rVxLHxpzQY)
 
 You can filter the data to get only needed items.
 For example request with `?lastName=Doe` will return only items with lastName Doe.
 
 Also can pass a few URL parameters like this: `/users?firstName=Joe&lastName=Doe&firstName=Sarah`
 
-[![Get with parameters](https://img.youtube.com/vi/OpBUUq9TCmE/0.jpg)](https://www.youtube.com/watch?v=OpBUUq9TCmE)
+[![Get with parameters](https://user-images.githubusercontent.com/15379788/48933031-bbda6480-ef0f-11e8-8d7c-0d456726d94d.png)](https://www.youtube.com/watch?v=OpBUUq9TCmE)
 
 ## DELETE
 
 If you use collection data type you should add URL parameter id to delete some specific entry.
 
-[![Delete from collection method usage](https://img.youtube.com/vi/SmaGp4QhNyQ/0.jpg)](https://www.youtube.com/watch?v=SmaGp4QhNyQ)
+[![Delete from collection method usage](https://user-images.githubusercontent.com/15379788/48933036-bda42800-ef0f-11e8-9112-000d9d38d70d.png)](https://www.youtube.com/watch?v=SmaGp4QhNyQ)
 
 In case you selected "Single item" you can use DELETE request without any parameters.
 
-[![Delete single item method usage](https://img.youtube.com/vi/fcEdUkU5wRg/0.jpg)](https://www.youtube.com/watch?v=fcEdUkU5wRg)
+[![Delete single item method usage](https://user-images.githubusercontent.com/15379788/48933030-bbda6480-ef0f-11e8-9973-e02953d2a703.png)](https://www.youtube.com/watch?v=fcEdUkU5wRg)
 
 
 ## PR are welcome! Have a fun.

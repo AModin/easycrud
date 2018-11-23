@@ -14,8 +14,9 @@
   },
   "dependencies": {
     "express": "~4.16.0",
+    "lodash": "^4.17.11",
+    "morgan": "~1.9.0",
     "node-json-db": "^0.9.1",
-    "shortid": "^2.2.14",
-    "morgan": "~1.9.0"
+    "shortid": "^2.2.14"
   }
 }

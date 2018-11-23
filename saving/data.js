@@ -1,6 +1,7 @@
 var exportedConfig = require('../db');
-const { config, savedData } = exportedConfig;
-const shortid = require('shortid');
+var { config, savedData } = exportedConfig;
+var shortid = require('shortid');
+var _filter = require('lodash/filter');
 
 class Data {
     save(req, res) {
@@ -78,26 +79,7 @@ class Data {
 
                             if (req.query && Object.keys(req.query).length !== 0) {
                                 
-                                for (let i in req.query) {
-
-                                    data.forEach(item => {
-                                        if (item.hasOwnProperty(i) && item[i] == req.query[i]) {
-                                            result.push(item);
-                                        }
-                                    });
-
-                                    result = result.filter(item => {
-                                        return item[i] == req.query[i];
-                                    });
-                                    
-
-                                    result = result.filter((item, pos) => {
-                                        return result.indexOf(item) == pos;
-                                    });
-
-                                }
-                                
-                                return res.send(result);
+                                return res.send(_filter(data, req.query));
                             }
                             
                             return res.send(data);

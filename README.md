@@ -1,10 +1,17 @@
-# Easycrud
+# Easycrud [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Create%20CRUD%20for%20your%20next%20front-end%20application%20in%20a%20seconds%20&url=https://github.com/AModin/easycrud&hashtags=expressjs,reactjs,front-end,mockserver,CRUD)
 
 ![Back](https://img.shields.io/badge/back%20end-express.js-%2390c53f.svg)
 ![Front](https://img.shields.io/badge/front%20end-reactjs-%2361dafb.svg)
 
 Have an awesome idea for your next perfect interface and don't want to waste your time to backend stuff? 
 Focus on really important things, this script will take this part and create CRUD API for you in a few seconds. This tool will create POST, PUT, DELETE and GET methods for you for the route you entered. No database required. Zero time to the configuration, no need to use the console, GUI is included.
+
+:white_check_mark: **Designed for front end developers**
+
+:white_check_mark: **Easy to configure**
+
+:white_check_mark: **GUI**
+
 ## Getting started
 First of all you need to be sure, that you have nodejs installed. I used version 11.1.0 and npm version 6.4.1. If you have an older node
 version installed and you want to keep it, use this tool [nvm](https://github.com/creationix/nvm) it will allow you to use few node versions and switch between them.
@@ -72,7 +79,7 @@ In case you selected "Single item" you can use DELETE request without any parame
 
 ## Warning :exclamation: :exclamation: :exclamation:
 
-Don't use it for production it's unsaved and not optimized!
+Don't use it for production it's unsafe and not optimized!
 
 ## Bult with
 * [Express](https://github.com/expressjs) - Used as backend

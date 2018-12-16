@@ -34,7 +34,7 @@ Install and run:
 
 After the server is running check out the dashboard at localhost:8000.
 
-![test page1](https://user-images.githubusercontent.com/15379788/50058292-3ef58000-0187-11e9-882b-571ce3a0ca22.png).
+![test page1](https://user-images.githubusercontent.com/15379788/50058805-d01c2500-018e-11e9-99bc-83ef680a6686.png)
 
 Try to create route `users` and fetch data from any localhost port:
 

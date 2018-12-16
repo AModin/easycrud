@@ -6,9 +6,9 @@
 Have an awesome idea for your next perfect interface and don't want to waste your time to backend stuff? 
 Focus on really important things, this script will take this part and create CRUD API for you in a few seconds. This tool will create POST, PUT, DELETE and GET methods for you for the route you entered. No database required. Zero time to the configuration, no need to use the console, GUI is included.
 
-:white_check_mark: **Designed for front end developers**
+:white_check_mark: **Designed for front-end developers**
 
-:white_check_mark: **Easy to configure**
+:white_check_mark: **Easy to configure and use**
 
 :white_check_mark: **GUI**
 

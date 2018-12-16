@@ -1,7 +1,11 @@
 # Easycrud
+
+![Back](https://img.shields.io/badge/back%20end-express.js-%2390c53f.svg)
+![Front](https://img.shields.io/badge/front%20end-reactjs-%2361dafb.svg)
+
 Have an awesome idea for your next perfect interface and don't want to waste your time to backend stuff? 
-Focus on really important things, this script will take this part and create CRUD API for you in a few seconds. This tool will create POST, PUT, DELETE and GET methods for you for the route you entered. Zero time to the configuration, no need to use the console, GUI is included.
-# Getting started
+Focus on really important things, this script will take this part and create CRUD API for you in a few seconds. This tool will create POST, PUT, DELETE and GET methods for you for the route you entered. No database required. Zero time to the configuration, no need to use the console, GUI is included.
+## Getting started
 First of all you need to be sure, that you have nodejs installed. I used version 11.1.0 and npm version 6.4.1. If you have an older node
 version installed and you want to keep it, use this tool [nvm](https://github.com/creationix/nvm) it will allow you to use few node versions and switch between them.
 
@@ -31,7 +35,8 @@ Try to create route `users` and fetch data from any localhost port:
 fetch('http://localhost:8000/users').then(res => res.json()).then( res => console.log(res))
 ```
 
-# Usage
+## Methods
+
 ## POST/PUT
 To save the data you need to attach the body to request.
 
@@ -65,6 +70,13 @@ In case you selected "Single item" you can use DELETE request without any parame
 
 [![Delete single item method usage](https://user-images.githubusercontent.com/15379788/48933030-bbda6480-ef0f-11e8-9973-e02953d2a703.png)](https://www.youtube.com/watch?v=fcEdUkU5wRg)
 
+## Warning :exclamation: :exclamation: :exclamation:
 
-## PR are welcome! Have a fun.
+Don't use it for production it's unsaved and not optimized!
 
+## Bult with
+* [Express](https://github.com/expressjs) - Used as backend
+* [Reactjs](https://reactjs.org/) - Used in the front end
+* [AntD](https://ant.design/) - UI kit for the dashboard
+* [Node JSON DB](https://github.com/Belphemur/node-json-db) - For saving the data
+* [Lodash](https://lodash.com/) - Used only one but very useful lodash function :)

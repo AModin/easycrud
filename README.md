@@ -1,13 +1,15 @@
-# Why?
+# Easycrud
 Have an awesome idea for your next perfect interface and don't want to waste your time to backend stuff? 
-Focus on really important things, this script will take this part and create CRUD API for you in a few seconds.
-# How?
+Focus on really important things, this script will take this part and create CRUD API for you in a few seconds. This tool will create POST, PUT, DELETE and GET methods for you for the route you entered. Zero time to the configuration, no need to use the console, GUI is included.
+# Getting started
 First of all you need to be sure, that you have nodejs installed. I used version 11.1.0 and npm version 6.4.1. If you have an older node
 version installed and you want to keep it, use this tool [nvm](https://github.com/creationix/nvm) it will allow you to use few node versions and switch between them.
 
-Clone this repo:
+Clone this repo 
 
 ```git clone https://github.com/AModin/easycrud.git```
+
+Or download as ZIP from the github interface.
 
 Go to easycrud directory:
 
@@ -19,9 +21,15 @@ Install and run:
 
 ```npm start```
 
-After the server is running check out the dashboard at localhost:8000
+After the server is running check out the dashboard at localhost:8000.
 
-![ezgif com-video-to-gif](https://user-images.githubusercontent.com/15379788/48918766-ca893300-ee9f-11e8-9c10-828b35327f7e.gif)
+![test page1](https://user-images.githubusercontent.com/15379788/50058292-3ef58000-0187-11e9-882b-571ce3a0ca22.png).
+
+Try to create route `users` and fetch data from any localhost port:
+
+```javascript
+fetch('http://localhost:8000/users').then(res => res.json()).then( res => console.log(res))
+```
 
 # Usage
 ## POST/PUT
